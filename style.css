@@ -8,6 +8,9 @@ body {
   background-color: hsl(257, 40%, 49%);
   color: white;
 }
+.container {
+  max-width: 1400px;
+}
 main {
   display: flex;
   align-items: center;

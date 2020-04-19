@@ -1,1 +1,1 @@
-check live preview [here](https://hudle-landin-page-single.netlify.app)
+check live preview [here](https://huddle-landing-page-single.netlify.app)

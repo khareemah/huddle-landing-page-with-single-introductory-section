@@ -11,25 +11,25 @@ body {
 main {
   display: flex;
   align-items: center;
-  max-width: 1100px;
+  max-width: 1400px;
   margin: auto;
   min-height: 100vh;
-  padding: 0 30px;
+  padding: 0 20px;
 }
 .left {
   flex-basis: 60%;
-  padding-right: 30px;
+  padding-right: 25px;
 }
 .right {
   flex-basis: 40%;
-  padding-left: 30px;
+  padding-left: 25px;
 }
 .container {
   max-width: 400px;
   margin: auto;
 }
 .logo {
-  width: 150px;
+  width: 200px;
   margin: 40px 0 60px;
 }
 .mockup {
@@ -40,13 +40,12 @@ main {
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  line-height: 28px;
+  font-size: 27px;
+  margin: 0;
 }
 p {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  opacity: 0.8;
+  line-height: 25px;
 }
 .btn {
   display: block;
@@ -58,13 +57,14 @@ p {
   color: hsl(257, 40%, 49%);
   outline: none;
   padding: 8px;
-  width: 120px;
+  width: 150px;
+  margin-top: 5px;
   cursor: pointer;
 }
 footer {
   text-align: right;
 }
-footer a {
+footer i {
   border: 1px solid white;
   border-radius: 50%;
   display: inline-block;
@@ -84,14 +84,14 @@ footer a {
     flex-direction: column;
   }
   .logo {
-    width: 100px;
+    width: 150px;
     margin: 20px 0;
   }
   .left {
     padding-right: 0;
   }
   .right {
-    padding-right: 0;
+    padding-left: 0;
   }
   h1,
   p {
@@ -99,7 +99,7 @@ footer a {
   }
   h1 {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 24px;
   }
   .btn {
     margin: auto;
@@ -109,4 +109,7 @@ footer a {
     text-align: center;
     margin: 30px 0;
   }
+}
+footer i {
+  color: white;
 }

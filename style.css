@@ -64,6 +64,7 @@ p {
 }
 footer {
   text-align: right;
+  margin-bottom: 20px;
 }
 footer a {
   border: 1px solid white;

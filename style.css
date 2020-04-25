@@ -15,21 +15,19 @@ body {
 main {
   display: flex;
   align-items: center;
-  max-width: 1400px;
-  margin: auto;
   min-height: 100vh;
-  padding: 0 20px;
+  padding: 0 2rem;
 }
 .left {
-  flex-basis: 60%;
+  flex-basis: 55%;
   padding-right: 25px;
 }
 .right {
-  flex-basis: 40%;
-  padding-left: 25px;
+  flex-basis: 45%;
+  /* padding-left: 25px; */
 }
-.container {
-  max-width: 400px;
+.inner_container {
+  max-width: 350px;
   margin: auto;
 }
 .logo {
